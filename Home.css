@@ -1,0 +1,164 @@
+.home {
+  display: block;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.homee__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Album {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin-top: 25px;
+  margin-left: 60px;
+  box-sizing: border-box;
+  position: absolute;
+  transition: .5s;
+  border-radius: 5%;
+}
+.home__image {
+  width: 100%;
+  height: 350px;
+  z-index: -1;
+  margin-bottom: -210px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.disp__image {
+  width: 67%;
+  height: 370px;
+  padding-left: 515px;
+}
+
+.Card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin-top: 25px;
+  margin-left: 435px;
+  box-sizing: border-box;
+  position: absolute;
+  transition: .5s;
+  border-radius: 5%;
+}
+
+.Monogram {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin-top: 25px;
+  margin-left: 810px;
+  box-sizing: border-box;
+  position: absolute;
+  transition: .5s;
+  border-radius: 5%;
+}
+
+.Frame {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin-top: 25px;
+  margin-left: 1185px;
+  box-sizing: border-box;
+  position: absolute;
+  transition: .5s;
+  border-radius: 5%;
+}
+
+.Social{
+  margin-top: 362px;
+  color: black;
+  background: rgba(239,106,140,255);
+  z-index: 1;
+}
+
+.Social >h4{
+  display: table-column;
+  padding-left: 655px;
+}
+.Social >p{
+  padding-left: 650px;
+}
+
+.address >p{
+  padding-left: 650px;
+}
+
+.social{
+  width: 150px;
+  object-fit: contain;
+  margin: 0 130px;
+}
+
+.homee_title{
+  display: flex;
+  text-align: center;
+  padding-left: 655px;
+  margin-top: 15px;
+}
+
+.ph{
+  padding-left: 950px;
+}
+
+.cu{
+  padding-left: 495px;
+}
+
+.as{
+  display: table-row;
+  padding-left: 600px;
+}
+.Social >h1{
+  padding-left: 628px;
+}
+.Social .insta{
+  padding-left: 675px;
+}
+
+.insta > a:link {
+  width: 100px;
+}
+
+.Album:hover{
+  box-shadow: 0px 0px 15px #111;
+  transform:scale(1.05);
+}
+
+.Frame:hover{
+  box-shadow: 0px 0px 15px #111;
+  transform:scale(1.05);
+}
+
+.Monogram:hover{
+  box-shadow: 0px 0px 15px #111;
+  transform:scale(1.05);
+}
+
+.Card:hover{
+  box-shadow: 0px 0px 15px #111;
+  transform:scale(1.05);
+}
+
+
